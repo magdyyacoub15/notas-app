@@ -1,0 +1,64 @@
+name: notas
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # المكتبات الأساسية
+  cupertino_icons: ^1.0.8
+
+  # مكتبات إدارة الحسابات (sqflite, path, intl)
+  sqflite: ^2.3.0
+  url_launcher: ^6.2.2
+  font_awesome_flutter: ^10.6.0
+  path: ^1.8.3
+  pdf: ^3.10.4
+  intl: ^0.18.1
+  provider: ^6.1.1
+  crypto: ^3.0.3
+  google_sign_in: ^6.1.6
+  googleapis: ^11.4.0
+  http: ^1.1.2
+  path_provider: ^2.1.1
+  file_picker: ^8.0.0
+  share_plus: ^8.0.0
+  shared_preferences: ^2.5.3
+
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.0
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # ✅ إضافة الباكدج المسؤولة عن توليد أيقونات التطبيق
+  flutter_launcher_icons: ^0.13.1
+
+# ✅ إعدادات الأيقونة الصحيحة
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: Alfares
+      fonts:
+        - asset: assets/fonts/Alfares.ttf
