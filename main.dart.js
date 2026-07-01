@@ -117131,7 +117131,7 @@ A.aqs.prototype={
 $3(a,b,c){var s=null,r=A.Br(s,s,"Alfares",B.bV,B.b2H,s),q=$.cf,p=(q==null?$.cf=$.eo():q).eG("[DEFAULT]")
 A.cr(p,$.ec(),!0)
 q=A.kW(new A.dz(p))
-return new A.uP(A.b2r(new A.aqq(this.a),q.a16(q.gpY().lm()),t.t6),new A.aqr(b),"Finance Tracker",r,s)},
+return new A.uP(A.b2r(new A.aqq(this.a),q.a16(q.gpY().lm()),t.t6),new A.aqr(b),"\u062f\u0641\u062a\u0631 \u062d\u0633\u0627\u0628\u0627\u062a\u064a",r,s)},
 $C:"$3",
 $R:3,
 $S:649}
